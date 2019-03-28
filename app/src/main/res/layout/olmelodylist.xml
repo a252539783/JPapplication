@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ground" android:layout_width="wrap_content" android:layout_height="match_parent" android:keepScreenOn="true">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ads" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/linearLayout5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:typeface="monospace" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/title_bar" android:layout_width="match_parent" android:layout_height="50dp" android:text="在线曲库:" android:keepScreenOn="true"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:id="@+id/linearLayout8" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="12sp" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="fill" android:id="@+id/show_button" android:background="@drawable/umeng_common_gradient_orange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 隐藏标题 "/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/linearLayout6" android:background="@drawable/selector_ol_blue" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16sp" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="fill" android:layout_gravity="center" android:id="@+id/ol_date_b" android:background="@drawable/selector_orange_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5sp" android:text=" 更新 "/>
+        <Button android:textSize="16sp" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="fill" android:layout_gravity="center" android:id="@+id/ol_degree_b" android:background="@drawable/selector_orange_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5sp" android:text=" 难度 "/>
+        <Button android:textSize="16sp" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="fill" android:layout_gravity="center" android:id="@+id/ol_name_b" android:background="@drawable/selector_orange_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5sp" android:text=" 歌名 "/>
+        <Button android:textSize="16sp" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="fill" android:layout_gravity="center" android:id="@+id/ol_artist_b" android:background="@drawable/selector_orange_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5sp" android:text=" 歌手 "/>
+        <Button android:textSize="16sp" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="fill" android:layout_gravity="center" android:id="@+id/ol_hot_b" android:background="@drawable/selector_orange_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5sp" android:text=" 热度 "/>
+        <Button android:textSize="16sp" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="fill" android:layout_gravity="center" android:id="@+id/ol_search_button" android:background="@drawable/selector_orange_button" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5sp" android:text=" 搜索 "/>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/parent" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textStyle="bold" android:textColor="@color/online" android:id="@+id/ol_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:textSize="18sp" android:textColor="@color/white1" android:id="@+id/ol_top_next" android:background="@drawable/selector_orange_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 第1页 "/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout1" android:fadingEdge="horizontal" android:fadingEdgeLength="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/linearLayout13" android:background="@drawable/filled_bar" android:layout_width="120dp" android:layout_height="match_parent">
+            <ListView android:scrollbarAlwaysDrawVerticalTrack="false" android:id="@+id/ol_f_list" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@color/blue_l" android:divider="@drawable/divider" android:fastScrollEnabled="false" android:headerDividersEnabled="false" android:footerDividersEnabled="false"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout14" android:background="@drawable/filled_bar" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/sup_view" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:layout_gravity="top" android:orientation="horizontal" android:id="@+id/linearLayout18" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/white1" android:gravity="top" android:id="@+id/textView2" android:background="@drawable/filled_list" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/thanks"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/linearLayout15" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/linearLayout17" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageButton android:id="@+id/sup" android:background="@color/translent" android:paddingRight="1dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ListView android:id="@+id/ol_c_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="#00ffffff" android:divider="@drawable/divider"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

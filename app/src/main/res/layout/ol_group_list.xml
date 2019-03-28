@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/filled_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:keepScreenOn="true">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="30sp" android:id="@+id/group_1" android:background="@drawable/back_puased" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="蓝队"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="30sp" android:id="@+id/group_2" android:background="@drawable/v1_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="黄队"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="30sp" android:id="@+id/group_3" android:background="@drawable/v6_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="红队"/>
+</LinearLayout>

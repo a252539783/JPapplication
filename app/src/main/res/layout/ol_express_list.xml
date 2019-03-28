@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/filled_bar" android:layout_width="wrap_content" android:layout_height="320dp" android:keepScreenOn="true">
+    <GridView android:id="@+id/ol_express_grid" android:layout_width="320dp" android:layout_height="wrap_content" android:listSelector="@color/translent" android:numColumns="8" android:layout_weight="1"/>
+</LinearLayout>

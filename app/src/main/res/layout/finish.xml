@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/linearLayout8" android:background="@drawable/filled_list" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/linearLayout2" android:background="@drawable/selector_list_c" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:background="@drawable/grounpbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="center" android:id="@+id/linearLayout4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/app_size" android:background="@drawable/selector_list_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 完成  "/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@+id/linearLayout7" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout01" android:layout_width="50dp" android:layout_height="match_parent">
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/TextView09" android:layout_width="46dp" android:layout_height="wrap_content" android:text=" 类别 "/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/TextView11" android:layout_width="46dp" android:layout_height="wrap_content" android:text=" 个数 "/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/TextView07" android:layout_width="46dp" android:layout_height="wrap_content" android:text=" 分数 "/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout9" android:layout_width="60dp" android:layout_height="match_parent">
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 暴击 "/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/perfect" android:layout_width="46dp" android:layout_height="wrap_content" android:text="0"/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/perfect_scr" android:layout_width="46dp" android:layout_height="wrap_content" android:text="0"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout10" android:layout_width="60dp" android:layout_height="match_parent">
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 很棒 "/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/cool" android:layout_width="46dp" android:layout_height="wrap_content" android:text="0"/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/cool_scr" android:layout_width="46dp" android:layout_height="wrap_content" android:text="0"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout11" android:layout_width="60dp" android:layout_height="match_parent">
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 完美 "/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/great" android:layout_width="35dp" android:layout_height="wrap_content" android:text="0"/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/great_scr" android:layout_width="35dp" android:layout_height="wrap_content" android:text="0"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout12" android:layout_width="60dp" android:layout_height="match_parent">
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 一般 "/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/bad" android:layout_width="22dp" android:layout_height="wrap_content" android:text="0"/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/bad_scr" android:layout_width="22dp" android:layout_height="wrap_content" android:text="0"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout13" android:layout_width="60dp" android:layout_height="match_parent">
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 失误 "/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/miss" android:layout_width="29dp" android:layout_height="wrap_content" android:text="0"/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/miss_scr" android:layout_width="29dp" android:layout_height="wrap_content" android:text="0"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout15" android:layout_width="60dp" android:layout_height="match_parent">
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/online" android:layout_gravity="center" android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 总分 "/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0"/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/total_scr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout14" android:layout_width="60dp" android:layout_height="match_parent">
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/exit" android:layout_gravity="center" android:id="@+id/TextView08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 连击 "/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/combo" android:layout_width="29dp" android:layout_height="wrap_content" android:text="0"/>
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/combo_scr" android:layout_width="29dp" android:layout_height="wrap_content" android:text="0"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:id="@+id/totle_lin" android:background="@drawable/grounpbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+                <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/TextView14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uget"/>
+                <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/totlescore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="0"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:id="@+id/hightest_lin" android:background="@drawable/wait_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+                <TextView android:textSize="12dp" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/TextView15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hscore"/>
+                <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/white1" android:layout_gravity="center" android:id="@+id/highscore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="0"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@+id/report_lin" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/yellow_c" android:gravity="center" android:layout_gravity="center" android:id="@+id/report" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/win"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/linearLayout3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/linearLayout5" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageButton android:id="@+id/ok" android:background="@color/translent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_ok"/>
+                <ImageButton android:id="@+id/retry" android:background="@color/translent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:src="@drawable/selector_retry"/>
+                <Button android:textColor="@color/white1" android:id="@+id/share_score" android:background="@drawable/selector_ol_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:text="分享我的成绩"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

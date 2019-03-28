@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cordova xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto">
+    <access origin="http://127.0.0.1*"/>
+    <log level="DEBUG"/>
+    <preference name="useBrowserHistory" value="false"/>
+</cordova>

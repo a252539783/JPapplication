@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linearLayout1" android:background="@drawable/spinne_l" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/room_make_title" android:background="@color/translent" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="创建房间" android:keepScreenOn="true"/>
+        <EditText android:id="@+id/room_name_text" android:layout_width="300dp" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" android:inputType="textMultiLine">
+            <requestFocus/>
+        </EditText>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/create_room_ok" android:background="@drawable/selector_list_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 确 定 "/>
+    </LinearLayout>
+</LinearLayout>

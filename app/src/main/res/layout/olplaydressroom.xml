@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ground" android:layout_width="wrap_content" android:layout_height="match_parent" android:keepScreenOn="true">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout1" android:fadingEdge="horizontal" android:fadingEdgeLength="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/RelativeLayout1" android:background="@drawable/filled_bar" android:layout_width="260dp" android:layout_height="match_parent">
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/ol_dress_ok" android:background="@drawable/selector_ol_button" android:layout_width="130dp" android:layout_height="wrap_content" android:text="保存" android:layout_weight="1" android:layout_toLeftOf="@+id/ol_dress_cancel" android:layout_toRightOf="@+id/ol_createroom_b" android:layout_alignParentBottom="true"/>
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/ol_dress_cancel" android:background="@drawable/selector_ol_button" android:layout_width="130dp" android:layout_height="wrap_content" android:text="返回" android:layout_weight="1" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+            <RelativeLayout android:orientation="vertical" android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <ImageView android:id="@+id/ol_dress_mod" android:background="@drawable/filled_msg" android:layout_width="100dp" android:layout_height="200dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+                <ImageView android:id="@+id/ol_dress_shoes" android:layout_width="100dp" android:layout_height="200dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+                <ImageView android:id="@+id/ol_dress_trousers" android:layout_width="100dp" android:layout_height="200dp"/>
+                <ImageView android:id="@+id/ol_dress_hair" android:layout_width="100dp" android:layout_height="200dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+                <ImageView android:id="@+id/ol_dress_jacket" android:layout_width="100dp" android:layout_height="200dp"/>
+            </RelativeLayout>
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/app_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更换服装" android:layout_above="@+id/RelativeLayout01" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/RelativeLayout1" android:background="@drawable/filled_bar" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TabHost android:id="@+id/tabhost" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TabWidget android:id="@android:id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" android:tabStripEnabled="false"/>
+                    <FrameLayout android:id="@android:id/tabcontent" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <RelativeLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/hair_tab" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <GridView android:id="@+id/ol_hair_grid" android:layout_width="match_parent" android:layout_height="240dp" android:listSelector="@color/translent" android:numColumns="5" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true"/>
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@+id/trousers_tab" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <GridView android:id="@+id/ol_trousers_grid" android:layout_width="match_parent" android:layout_height="240dp" android:listSelector="@color/translent" android:numColumns="5" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true"/>
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@+id/jacket_tab" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <GridView android:id="@+id/ol_jacket_grid" android:layout_width="match_parent" android:layout_height="240dp" android:listSelector="@color/translent" android:numColumns="5" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true"/>
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@+id/shoes_tab" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <GridView android:id="@+id/ol_shoes_grid" android:layout_width="match_parent" android:layout_height="240dp" android:listSelector="@color/translent" android:numColumns="5" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true"/>
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@+id/tao_tab" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <GridView android:id="@+id/ol_tao_grid" android:layout_width="match_parent" android:layout_height="240dp" android:listSelector="@color/translent" android:numColumns="5" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true"/>
+                        </RelativeLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </TabHost>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

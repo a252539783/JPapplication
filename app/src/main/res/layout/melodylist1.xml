@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/ground" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ads" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:typeface="monospace" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:id="@+id/title_bar" android:layout_width="wrap_content" android:layout_height="50dp" android:text="选择曲谱:" android:keepScreenOn="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linearLayout9" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout11" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/RelativeLayout1" android:background="@drawable/selector_ol_blue" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:layout_gravity="center" android:id="@+id/totle_score_all" android:background="@drawable/grounpbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/white1" android:textColorHighlight="@color/blue_d" android:gravity="center" android:layout_gravity="center" android:id="@+id/all_mel" android:background="@drawable/wait_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_toRightOf="@+id/totle_score_all" android:layout_alignBaseline="@+id/totle_score_all" android:layout_centerVertical="true"/>
+        <Button android:textSize="18sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/list_sort_b" android:background="@drawable/selector_orange_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="排序方式" android:singleLine="true" android:layout_toRightOf="@+id/all_mel" android:layout_centerVertical="true"/>
+        <Button android:textSize="18sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/search_button" android:background="@drawable/selector_orange_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="搜索" android:singleLine="true" android:layout_toRightOf="@+id/list_sort_b" android:layout_centerVertical="true"/>
+        <CheckBox android:textSize="12sp" android:id="@+id/check_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="录音" android:layout_toRightOf="@+id/search_button" android:layout_alignBottom="@+id/search_button" android:layout_alignParentTop="true"/>
+        <CheckBox android:textSize="12sp" android:id="@+id/check_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="连续" android:layout_toRightOf="@+id/check_record" android:layout_alignTop="@+id/search_button" android:layout_alignBottom="@+id/search_button"/>
+        <Button android:textSize="10sp" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="fill" android:id="@+id/show_button" android:background="@drawable/filled_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="隐藏标题" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <CheckBox android:textSize="12sp" android:id="@+id/check_hand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="左手" android:layout_toLeftOf="@+id/show_button" android:layout_toRightOf="@+id/check_play" android:layout_alignBottom="@+id/check_play" android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout1" android:fadingEdge="horizontal" android:fadingEdgeLength="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/linearLayout13" android:background="@drawable/filled_bar" android:layout_width="120dp" android:layout_height="match_parent">
+            <ListView android:id="@+id/f_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/divider" android:fastScrollEnabled="false"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout14" android:background="@drawable/filled_bar" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@+id/c_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="#00ffffff" android:divider="@drawable/divider"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

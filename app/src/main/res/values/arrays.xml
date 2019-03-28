@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="vol_entries">
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>1.9</item>
+        <item>2.0</item>
+    </array>
+    <array name="anim_entries">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </array>
+    <array name="anim_value">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+    </array>
+    <array name="down_nentries">
+        <item>发泄</item>
+        <item>神快</item>
+        <item>巨快</item>
+        <item>特快</item>
+        <item>超快</item>
+        <item>快</item>
+        <item>中</item>
+        <item>慢</item>
+        <item>超慢</item>
+    </array>
+    <array name="down_value">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </array>
+    <array name="badu">
+        <item>低三个八度</item>
+        <item>低两个八度</item>
+        <item>低一个八度</item>
+        <item>默认</item>
+        <item>高一个八度</item>
+        <item>高两个八度</item>
+        <item>高三个八度</item>
+    </array>
+    <array name="badu_value">
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="temp_e">
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.5</item>
+    </array>
+    <array name="background">
+        <item>默认背景图片</item>
+        <item>自定义背景图片</item>
+    </array>
+    <array name="background_value">
+        <item>@null</item>
+        <item>1</item>
+    </array>
+    <array name="vib_len">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </array>
+    <array name="show_help">
+        <item>错误</item>
+    </array>
+    <array name="theme_name">
+        <item>雪花主题</item>
+        <item>经典主题</item>
+    </array>
+    <array name="theme_value">
+        <item>@null</item>
+        <item>1</item>
+    </array>
+    <array name="note_s">
+        <item>巨大</item>
+        <item>超大</item>
+        <item>很大</item>
+        <item>大</item>
+        <item>略大</item>
+        <item>中</item>
+        <item>略小</item>
+        <item>小</item>
+        <item>很小</item>
+        <item>超小</item>
+        <item>微小</item>
+        <item>消失</item>
+    </array>
+    <array name="note_size">
+        <item>30</item>
+        <item>25</item>
+        <item>20</item>
+        <item>15</item>
+        <item>12</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>5</item>
+        <item>3</item>
+        <item>1</item>
+    </array>
+</resources>

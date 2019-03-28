@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ground" android:layout_width="wrap_content" android:layout_height="match_parent" android:keepScreenOn="true">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/ads" android:background="@drawable/ol_rectangle_orange" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="16sp" android:gravity="center" android:id="@+id/ol_top_tittle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Large" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <Button android:textSize="14sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/ol_top_next" android:background="@drawable/selector_ol_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下一页 " android:layout_alignBottom="@+id/ol_top_before" android:layout_alignParentRight="true"/>
+        <TextView android:textSize="18sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/ol_top_page" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-1-" android:layout_toLeftOf="@+id/ol_top_next" android:layout_centerVertical="true"/>
+        <Button android:textSize="14sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/ol_top_before" android:background="@drawable/selector_ol_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上一页 " android:layout_toLeftOf="@+id/ol_top_page" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout1" android:fadingEdge="horizontal" android:fadingEdgeLength="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout14" android:background="@drawable/filled_bar" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@+id/ol_top_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="#00ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

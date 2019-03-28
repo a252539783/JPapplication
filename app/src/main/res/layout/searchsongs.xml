@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ground" android:layout_width="wrap_content" android:layout_height="match_parent" android:keepScreenOn="true">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ads" android:background="@drawable/ol_rectangle_orange" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_search_b" android:background="@drawable/selector_ol_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 搜索 " android:layout_alignBaseline="@+id/ol_keywords" android:layout_alignBottom="@+id/ol_keywords" android:layout_alignParentRight="true"/>
+        <EditText android:textSize="20sp" android:textColor="@color/local" android:id="@+id/ol_keywords" android:background="@drawable/ol_rectangle_white" android:layout_width="320dp" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" android:layout_toLeftOf="@+id/ol_search_b" android:layout_toRightOf="@+id/title_bar" android:layout_centerVertical="true">
+            <requestFocus/>
+        </EditText>
+        <TextView android:textSize="20sp" android:typeface="monospace" android:textStyle="bold" android:textColor="@color/white1" android:gravity="center" android:id="@+id/title_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="曲谱搜索:" android:layout_alignBaseline="@+id/ol_keywords" android:layout_alignBottom="@+id/ol_keywords" android:layout_alignParentLeft="true" android:keepScreenOn="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout1" android:fadingEdge="horizontal" android:fadingEdgeLength="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout14" android:background="@drawable/filled_bar" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@+id/ol_search_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="#00ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

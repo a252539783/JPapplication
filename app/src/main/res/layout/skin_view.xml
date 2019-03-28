@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/LinearLayout1" android:background="@drawable/ol_rectangle_blue" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ly.pp.addsongs.ScrollText android:textSize="16sp" android:textColor="@color/white1" android:ellipsize="marquee" android:gravity="center" android:id="@+id/skin_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="名称" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+    <ImageView android:id="@+id/skin_image" android:layout_width="160dp" android:layout_height="80dp" android:layout_weight="0.72"/>
+    <RelativeLayout android:id="@+id/RelativeLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/skin_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大小" android:singleLine="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        <TextView android:textSize="12sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/download_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/skin_author" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="作者" android:singleLine="true"/>
+</LinearLayout>

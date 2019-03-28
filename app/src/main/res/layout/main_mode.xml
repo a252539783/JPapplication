@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ground" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <LinearLayout android:gravity="center" android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3dp">
+        <LinearLayout android:orientation="vertical" android:background="@color/yellow_l" android:layout_width="160dp" android:layout_height="120dp">
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/local_game" android:background="@drawable/selector_ol_orange" android:layout_width="160dp" android:layout_height="120dp" android:text="本地弹奏" android:drawableTop="@drawable/local" android:drawablePadding="0dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/yellow_l" android:layout_width="160dp" android:layout_height="120dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp">
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/online_game" android:background="@drawable/selector_ol_green" android:layout_width="160dp" android:layout_height="120dp" android:text="联网对战" android:drawableTop="@drawable/online"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/yellow_l" android:layout_width="160dp" android:layout_height="120dp">
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/sounds" android:background="@drawable/selector_ol_orange" android:layout_width="160dp" android:layout_height="57dp" android:text="音源" android:drawableLeft="@drawable/sound"/>
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/skins" android:background="@drawable/selector_ol_blue" android:layout_width="160dp" android:layout_height="57dp" android:layout_marginTop="6dp" android:text="皮肤" android:drawableLeft="@drawable/download"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+        <LinearLayout android:orientation="vertical" android:background="@color/yellow_l" android:layout_width="160dp" android:layout_height="120dp">
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/about_game" android:background="@drawable/selector_ol_bluelight" android:layout_width="160dp" android:layout_height="57dp" android:text="说明" android:drawableLeft="@drawable/about"/>
+            <Button android:textSize="18sp" android:textColor="@color/white1" android:id="@+id/listen" android:background="@drawable/selector_ol_blue" android:layout_width="160dp" android:layout_height="57dp" android:layout_marginTop="6dp" android:text="录音管理" android:drawableLeft="@drawable/record"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/yellow_l" android:layout_width="160dp" android:layout_height="120dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp">
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/piano_help" android:background="@drawable/selector_ol_orange" android:layout_width="match_parent" android:layout_height="57dp" android:text="帮助" android:drawableLeft="@drawable/help"/>
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/more_game" android:background="@drawable/selector_ol_blue" android:layout_width="160dp" android:layout_height="57dp" android:layout_marginTop="6dp" android:text="评分" android:drawableLeft="@drawable/comment"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/yellow_l" android:layout_width="160dp" android:layout_height="120dp">
+            <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/settings" android:background="@drawable/selector_ol_bluelight" android:layout_width="160dp" android:layout_height="57dp" android:text="设置" android:drawableLeft="@drawable/setting"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/share_button" android:background="@drawable/selector_ol_green" android:layout_width="77dp" android:layout_height="57dp" android:layout_marginTop="6dp" android:text="分享"/>
+                <Button android:textSize="24sp" android:textColor="@color/white1" android:id="@+id/feed_back" android:background="@drawable/selector_ol_orange" android:layout_width="77dp" android:layout_height="57dp" android:layout_marginLeft="6dp" android:layout_marginTop="6dp" android:text="反馈"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/butStop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="stop"/>
+        <Button android:id="@+id/butStart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start"/>
+        <Button android:id="@+id/butRestart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ReStart"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <cn.edu.heut.zcl.BallSurfaceView android:id="@+id/ballSurfaceView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

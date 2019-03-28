@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ground" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="@color/white1" android:id="@+id/app_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="极品钢琴榜单"/>
+    <LinearLayout android:gravity="center" android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3dp">
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_class_b" android:background="@drawable/selector_ol_blue" android:layout_width="80dp" android:layout_height="match_parent" android:text="考级榜"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_level_b" android:background="@drawable/selector_ol_bluelight" android:layout_width="80dp" android:layout_height="match_parent" android:text="等级榜"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_topUsers_b" android:background="@drawable/selector_ol_blue" android:layout_width="80dp" android:layout_height="match_parent" android:text="冠军榜"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_topScore_b" android:background="@drawable/selector_ol_bluelight" android:layout_width="80dp" android:layout_height="match_parent" android:text="总分榜"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_score_day" android:background="@drawable/selector_ol_blue" android:layout_width="80dp" android:layout_height="180dp" android:text="日榜"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_score_month" android:background="@drawable/selector_ol_bluelight" android:layout_width="80dp" android:layout_height="match_parent" android:text="月榜"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+        <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@+id/rg_p_c" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:textSize="16sp" android:textColor="@color/white1" android:id="@+id/p_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本省榜"/>
+            <RadioButton android:textSize="16sp" android:textStyle="bold" android:textColor="@color/white1" android:id="@+id/c_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总榜"/>
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

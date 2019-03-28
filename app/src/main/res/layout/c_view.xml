@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@drawable/selector_list_c" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/linearLayout6" android:background="@drawable/wait_back" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ly.pp.addsongs.ScrollText android:textSize="15sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/white1" android:textColorHighlight="@color/blue_d" android:textColorHint="@color/blue_d" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center" android:id="@+id/s_n" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100dp" android:text="" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout2" android:layout_width="30dp" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/is_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/linearLayout9" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/favor" android:background="@drawable/selector_list_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/favor"/>
+                <ImageView android:id="@+id/dele" android:background="@drawable/selector_list_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dele"/>
+                <ImageView android:id="@+id/play_image" android:background="@drawable/selector_list_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/listen_play"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/linearLayout5" android:background="@drawable/grounpbar" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <TextView android:textSize="12sp" android:textColor="@color/white1" android:textColorHighlight="@color/black" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/nandu_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="难度:" android:onClick="null"/>
+                <RatingBar android:layout_gravity="center_vertical" android:id="@+id/nandu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:numStars="5" style="?android:attr/ratingBarStyleSmall"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout01" android:background="@color/white1" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginLeft="5dp"/>
+            <LinearLayout android:layout_gravity="center" android:id="@+id/linearLayout3" android:background="@drawable/grounpbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp">
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/white1" android:textColorHighlight="@color/black" android:gravity="center" android:id="@+id/highscore" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="得分:" android:onClick="null"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/linearLayout8" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/play" android:background="@color/translent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_child_paly"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@+id/LinearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <RelativeLayout android:gravity="center" android:background="@drawable/filled_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/p_start" android:background="@color/translent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_child_paly" android:layout_below="@+id/relativeLayout2" android:layout_centerHorizontal="true"/>
+        <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="24sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/more" android:gravity="center" android:id="@+id/m_name" android:background="@drawable/grounpbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+            <ProgressBar android:id="@+id/m_progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/m_name" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@+id/relativeLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/relativeLayout1" android:layout_centerHorizontal="true">
+            <TextView android:textSize="20dp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/m_nandu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="TextView" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <TextView android:textSize="20dp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/m_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="TextView" android:layout_toRightOf="@+id/m_nandu" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

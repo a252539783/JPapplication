@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_list_c" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="12sp" android:textColor="@color/white1" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/song_name" android:layout_width="120dp" android:layout_height="wrap_content" android:text="SONGNAME" android:singleLine="true" android:layout_centerVertical="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="12sp" android:textColor="@color/white1" android:id="@+id/nandu_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="难度" android:layout_toRightOf="@+id/song_name" android:layout_centerVertical="true"/>
+        <RatingBar android:id="@+id/song_degree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:layout_toRightOf="@+id/nandu_1" android:layout_centerVertical="true" style="?android:attr/ratingBarStyleSmall"/>
+        <ImageView android:id="@+id/song_favor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

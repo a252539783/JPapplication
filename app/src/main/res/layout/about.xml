@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@drawable/selector_list_f" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:keepScreenOn="true"
+                android:text="@string/about" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

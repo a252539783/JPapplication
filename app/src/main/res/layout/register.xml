@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/s" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:id="@+id/linearLayout6" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30sp" android:textColor="@color/white1" android:id="@+id/register_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 注册账号 " android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/app_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="账号:"/>
+            <EditText android:textSize="20sp" android:id="@+id/rg_name" android:nextFocusDown="@+id/rg_kiti" android:layout_width="160dp" android:layout_height="wrap_content" android:text="" android:singleLine="true"/>
+            <TextView android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="昵称:"/>
+            <EditText android:textSize="20sp" android:id="@+id/rg_kiti" android:nextFocusDown="@+id/rg_psw_1" android:layout_width="160dp" android:layout_height="wrap_content" android:text="" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="密码:"/>
+            <EditText android:textSize="20sp" android:id="@+id/rg_psw_1" android:nextFocusDown="@+id/rg_psw_2" android:layout_width="160dp" android:layout_height="wrap_content" android:password="true" android:singleLine="true"/>
+            <TextView android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确认:" android:singleLine="true"/>
+            <EditText android:textSize="20sp" android:id="@+id/rg_psw_2" android:layout_width="160dp" android:layout_height="wrap_content" android:password="true" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center" android:id="@+id/linearLayout4" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textColor="@color/yellow_r" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="性别:"/>
+            <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@+id/rg_sex" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/m"/>
+                <RadioButton android:textSize="20sp" android:textColor="@color/yellow_r" android:id="@+id/m_radio" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/f"/>
+                <RadioButton android:textSize="20sp" android:textStyle="bold" android:textColor="@color/yellow_r" android:id="@+id/f_radio" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/linearLayout5" android:layout_width="match_parent" android:layout_height="50dp">
+            <Button android:textSize="25sp" android:textColor="@color/white1" android:id="@+id/rg_back" android:background="@drawable/selector_ol_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text=" 返回 "/>
+            <Button android:textSize="25sp" android:textColor="@color/white1" android:id="@+id/rg_register" android:background="@drawable/selector_ol_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text=" 注册 "/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

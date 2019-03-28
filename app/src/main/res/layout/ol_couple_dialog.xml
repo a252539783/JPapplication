@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/LinearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ol_couple_mod" android:layout_width="100dp" android:layout_height="100dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <ImageView android:id="@+id/ol_couple_shoes" android:layout_width="100dp" android:layout_height="100dp"/>
+            <ImageView android:id="@+id/ol_couple_trousers" android:layout_width="100dp" android:layout_height="100dp"/>
+            <ImageView android:id="@+id/ol_couple_hair" android:layout_width="100dp" android:layout_height="100dp"/>
+            <ImageView android:id="@+id/ol_couple_jacket" android:layout_width="100dp" android:layout_height="100dp"/>
+            <TextView android:textSize="12sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/ol_couple_name" android:background="@drawable/back_puased" android:layout_width="match_parent" android:layout_height="20dp" android:singleLine="true" android:layout_below="@+id/ol_couple_mod" android:layout_alignRight="@+id/ol_couple_mod" android:layout_alignParentLeft="true"/>
+            <TextView android:textSize="12sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/green_r" android:textColorHint="@color/yellow_r" android:gravity="left" android:id="@+id/ol_couple_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_above="@+id/ol_couple_name" android:layout_alignRight="@+id/ol_couple_mod"/>
+            <TextView android:textSize="12sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/yellow" android:textColorHint="@color/yellow_r" android:gravity="left" android:id="@+id/ol_couple_class" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_above="@+id/ol_couple_level" android:layout_alignRight="@+id/ol_couple_mod"/>
+            <TextView android:textSize="12sp" android:typeface="monospace" android:textStyle="normal|bold|italic" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="center" android:id="@+id/ol_couple_clname" android:background="@drawable/filled_classname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@+id/couple_type" android:layout_width="42dp" android:layout_height="42dp" android:src="@drawable/couple_1" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="12sp" android:textColor="@color/white1" android:gravity="center_horizontal" android:id="@+id/couple_pionts" android:background="@color/c10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_above="@+id/couple_type" android:layout_alignRight="@+id/couple_type" android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/RelativeLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ol_player_mod" android:layout_width="100dp" android:layout_height="100dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <ImageView android:id="@+id/ol_player_shoes" android:layout_width="100dp" android:layout_height="100dp"/>
+            <ImageView android:id="@+id/ol_player_trousers" android:layout_width="100dp" android:layout_height="100dp"/>
+            <ImageView android:id="@+id/ol_player_hair" android:layout_width="100dp" android:layout_height="100dp"/>
+            <ImageView android:id="@+id/ol_player_jacket" android:layout_width="100dp" android:layout_height="100dp"/>
+            <TextView android:textSize="12sp" android:textColor="@color/white1" android:gravity="center" android:id="@+id/ol_player_name" android:background="@drawable/back_puased" android:layout_width="match_parent" android:layout_height="20dp" android:singleLine="true" android:layout_below="@+id/ol_player_mod" android:layout_alignRight="@+id/ol_player_mod" android:layout_alignParentLeft="true"/>
+            <TextView android:textSize="12sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/green_r" android:textColorHint="@color/yellow_r" android:gravity="left" android:id="@+id/ol_player_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_above="@+id/ol_player_name" android:layout_alignRight="@+id/ol_player_mod"/>
+            <TextView android:textSize="12sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/yellow" android:textColorHint="@color/yellow_r" android:gravity="left" android:id="@+id/ol_player_class" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_above="@+id/ol_player_level" android:layout_alignRight="@+id/ol_player_mod"/>
+            <TextView android:textSize="12sp" android:typeface="monospace" android:textStyle="normal|bold|italic" android:textColor="@color/white1" android:textColorHint="@color/yellow_r" android:gravity="center" android:id="@+id/ol_player_clname" android:background="@drawable/filled_classname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ScrollView android:id="@+id/scrollView1" android:background="@drawable/ol_rectangle_blue" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="80dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textColor="@color/white1" android:id="@+id/couple_bless" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

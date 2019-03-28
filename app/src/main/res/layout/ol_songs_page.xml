@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ground" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="@color/white1" android:id="@+id/app_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="在线曲库"/>
+    <LinearLayout android:gravity="center" android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3dp">
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_melodyList_b" android:background="@drawable/selector_ol_bluelight" android:layout_width="80dp" android:layout_height="180dp" android:text="类别"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_hotSongs_b" android:background="@drawable/selector_ol_blue" android:layout_width="80dp" android:layout_height="match_parent" android:text="最热"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_newSongs_b" android:background="@drawable/selector_ol_bluelight" android:layout_width="80dp" android:layout_height="match_parent" android:text="最新"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_collect_b" android:background="@drawable/selector_ol_blue" android:layout_width="80dp" android:layout_height="match_parent" android:text="收藏"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_search_b" android:background="@drawable/selector_ol_bluelight" android:layout_width="80dp" android:layout_height="match_parent" android:text="搜索"/>
+        <Button android:textSize="20sp" android:textColor="@color/white1" android:id="@+id/ol_recent_b" android:background="@drawable/selector_ol_blue" android:layout_width="80dp" android:layout_height="match_parent" android:text="新冠"/>
+    </LinearLayout>
+</LinearLayout>

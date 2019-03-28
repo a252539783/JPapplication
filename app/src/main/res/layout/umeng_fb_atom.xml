@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/umeng_fb_atomLinearLayout" android:background="#ffefefef" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/umeng_fb_atom_left_margin" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/umeng_fb_bubble" android:background="@drawable/umeng_fb_user_bubble" android:padding="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_weight="1">
+        <TextView android:textSize="20dp" android:textColor="#ff6f6f6f" android:id="@+id/umeng_fb_atomtxt" android:paddingLeft="4dp" android:paddingRight="7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="This is Content"/>
+        <TextView android:textSize="12dp" android:textColor="#ffff0000" android:id="@+id/umeng_fb_stateOrTime" android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingRight="7dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="This is State or Send Time"/>
+    </LinearLayout>
+    <View android:id="@+id/umeng_fb_atom_right_margin" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

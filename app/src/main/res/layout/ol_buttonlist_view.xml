@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ol_rectangle_orange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:keepScreenOn="true">
+    <Button android:textSize="18sp" android:textColor="@color/white1" android:id="@+id/ol_befriend_b" android:background="@drawable/selector_ol_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="加为好友"/>
+    <Button android:textSize="18sp" android:textColor="@color/white1" android:id="@+id/ol_chat_b" android:background="@drawable/selector_ol_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="私聊"/>
+    <Button android:textSize="18sp" android:textColor="@color/white1" android:id="@+id/ol_couple_b" android:background="@drawable/selector_ol_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="搭档信息"/>
+    <Button android:textSize="18sp" android:textColor="@color/white1" android:id="@+id/ol_kickout_b" android:background="@drawable/selector_ol_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="移出房间"/>
+    <Button android:textSize="18sp" android:textColor="@color/white1" android:id="@+id/ol_closepos_b" android:background="@drawable/selector_ol_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="关闭空位"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@+id/layout" android:background="@drawable/ground" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <LinearLayout android:gravity="center" android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3dp">
+        <Button android:textSize="25sp" android:textColor="@color/white1" android:id="@+id/game_mode" android:background="@drawable/selector_ol_blue" android:layout_width="160dp" android:layout_height="120dp" android:text="游戏模式" android:drawableTop="@drawable/local"/>
+        <Button android:textSize="25sp" android:textColor="@color/white1" android:id="@+id/practice_mode" android:background="@drawable/selector_ol_green" android:layout_width="160dp" android:layout_height="120dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:text="练习模式" android:drawableTop="@drawable/local"/>
+        <Button android:textSize="25sp" android:textColor="@color/white1" android:id="@+id/free_mode" android:background="@drawable/selector_ol_orange" android:layout_width="160dp" android:layout_height="120dp" android:text="自由模式" android:drawableTop="@drawable/local"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+        <Button android:textSize="25sp" android:textColor="@color/white1" android:id="@+id/listen_mode" android:background="@drawable/selector_ol_orange" android:layout_width="160dp" android:layout_height="120dp" android:text="欣赏模式" android:drawableTop="@drawable/listen"/>
+        <Button android:textSize="25sp" android:textColor="@color/white1" android:id="@+id/keyboard" android:background="@drawable/selector_ol_blue" android:layout_width="160dp" android:layout_height="120dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:text="键盘模式" android:drawableTop="@drawable/key"/>
+    </LinearLayout>
+</LinearLayout>
